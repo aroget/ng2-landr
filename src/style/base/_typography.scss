@@ -1,0 +1,38 @@
+$vertical_rythm: 1.5;
+$double_vertical_rythm: $vertical_rythm * 2;
+
+body {
+  color: $brand_font_dark;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: $link_default;
+  
+  &:hover {
+    color: $link_default_hover;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $font_medium;
+  font-weight: 500;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  transition: color 300ms ease-in-out;
+}

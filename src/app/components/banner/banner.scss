@@ -1,0 +1,26 @@
+section {
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+
+    .details--wrapper {
+        padding-top: 100px;
+        
+        .details--copy {
+            background: #fff;
+            padding: 30px;
+            display: inline-block;
+            text-align:center;
+            
+            p {
+                color: #666;
+            }
+        }
+    }
+}
+
+.meta {
+    font-size: .7em;
+    color: #e85a71;
+}

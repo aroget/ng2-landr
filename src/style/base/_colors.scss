@@ -1,0 +1,45 @@
+$brand_main: #4ea1d3;
+$brand_accent: #e85a71;
+
+$brand_white: #f4f4f4;
+$brand_dark: #454552;
+$brand_medium: #d8e9ef;
+
+$brand_font_default: $brand_medium;
+$brand_font_dark: $brand_dark;
+$brand_font_light: $brand_white;
+
+$brand_link_default: $brand_accent;
+$brand_link_contrast: $brand_main;
+$brand_link_default_hover: lighten($brand_link_default, 10%);
+$brand_link_contrast_hover: lighten($brand_link_contrast, 10%);
+
+/**
+* Fonts
+**/
+$font_default: $brand_font_default;
+$font_dark: $brand_font_dark;
+$font_light: $brand_font_light;
+$font_medium: ligthen($font_dark, 10%);
+
+/**
+* Links
+**/
+$link_default: $brand_link_default;
+$link_default_hover: $brand_link_default_hover;
+$link_contrast: $brand_link_contrast;
+$link_contrast_hover: $brand_link_contrast_hover;
+
+/**
+* Background
+**/
+$bg_default: $brand_white;
+$bg_dark: $brand_dark;
+$bg_medium: $brand_medium;
+
+/**
+* Border
+**/
+$border_default: $brand_main;
+$border_light: $brand_white;
+$border_accent: $brand_accent;

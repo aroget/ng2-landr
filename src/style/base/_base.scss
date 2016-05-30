@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: $bg_default;
+}
+
+button {
+    margin-right: 30px;
+    
+    &:last-child {
+        margin-right: 0;
+    }
+    &.primary {
+        background-color: $brand_accent;
+        border: none;
+        color: $font_light;
+        transition: all 300ms;
+        
+        &:hover {
+            background-color: $link_default_hover;
+        }
+    }
+    &.secondary {
+        background-color: $brand_main;
+        border: none;
+        color: $font_light;
+        transition: all 300ms;
+    }
+        &:hover {
+            background-color: $brand_main;
+        }
+}

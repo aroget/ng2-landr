@@ -1,0 +1,43 @@
+button {
+    margin: 50px auto;
+    display: block;
+}
+
+table {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    
+    tr:nth-child(odd) {
+        background: #fff;
+    }
+    
+    td, 
+    th {
+        padding: 20px;
+        font-size: .8em;
+        border-bottom: none;
+    }
+}
+
+.action-button {
+    display: inline-block;
+    font-size: .7em;
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+    margin-right: 20px;
+    
+    &:last-child {
+        margin-right: 0;
+    }
+    
+    &:hover {
+        cursor: pointer;
+    }
+
+    &.delete {
+        color: #e85a71;
+    }
+}
+
