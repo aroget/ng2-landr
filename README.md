@@ -1,6 +1,6 @@
 # Landing Page Builder 
 
-My Submission for Angular Attack Hackathon, I will making new changes to this repo soon, the original subscription is available on the link below.
+My Submission for Angular Attack Hackathon, I will be making new changes to this repo soon, the original submission is available on the link below.
 
 Demo: https://aroget.2016.angularattack.io
 
